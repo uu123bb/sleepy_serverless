@@ -1,0 +1,16 @@
+# 统一使用 LF, 避免 Windows (core.autocrlf=true) 造成的换行符噪音
+# 本项目最终部署在 Linux (Vercel), 脚本文件使用 LF 才能正常执行
+* text=auto eol=lf
+
+# Windows 专用脚本保留 CRLF
+*.ps1 text eol=crlf
+*.bat text eol=crlf
+*.cmd text eol=crlf
+*.vbs text eol=crlf
+
+# 二进制文件不做任何转换
+*.exe binary
+*.ico binary
+*.zip binary
+*.png binary
+*.jpg binary
