@@ -25,7 +25,7 @@
 - 部署到 Vercel **必须配置外部 KV**（Upstash）：`/tmp` 中的 `data.json` 会随函数实例销毁而丢失，状态会不定期重置为模板值。
 - 环境变量请在 Vercel 项目设置中配置，**不要**提交 `.env`。
 - Serverless 下 `/metrics` 的访问计数只在单个实例内存中累加，**不跨实例统计、也不持久化**（避免读请求回写覆盖状态并浪费 KV 额度）。
-- 在 Vervel 部署后请在 `Storage` 设置项添加 `Upstash`
+- 部署在 Vercel 后，须添加 `Upstash` 作为数据库
 
 ---
 
