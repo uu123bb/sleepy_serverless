@@ -1,5 +1,5 @@
 > [!IMPORTANT]
-> 这是 [`uu123bb/slpy`](https://github.com/uu123bb/slpy)，从 [`wyf9/sleepy`](https://github.com/wyf9/sleepy) 分出的个人分支。
+> 这是 [`uu123bb/sleepy_serverless`](https://github.com/uu123bb/sleepy_serverless)，从 [`wyf9/sleepy`](https://github.com/wyf9/sleepy) 分出的个人分支。
 > **上游的功能与文档保持不变，本分支只做「部署到 Vercel 等无状态平台」所需的改动**，详见下方。
 
 > [!IMPORTANT]
